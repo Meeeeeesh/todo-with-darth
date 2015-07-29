@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Do Is Strong In You</title>
+    <link href='app.css' rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="todo">
+      <h1>Do with Darth</h1>
+      <form action='index.html' method='POST'>
+        <div>
+          <input class="todo__input" type='text' data-js='taskInput' placeholder='You may dispense with the pleasantries, commander.' autofocus='true'/>
+        </div>
+        <ul class="todo__items" data-js='todoItems'>
+          <li class='todo__empty' data-js='default_message'>
+          <br />
+            I am here to put you back on schedule.
+          <br />
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <script src="app.js" async='true'></script>
+  </body>
+</html>
